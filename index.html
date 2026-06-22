@@ -593,12 +593,26 @@
         <div class="carousel-container">
             <div class="carousel-wrapper">
                 <div class="carousel" id="carousel">
+                    <div class="pub-slide"> 
+                        <div class="pub-image">
+                            <img src="pub4.png" alt="Publication COVER Image">
+                        </div>
+                        <div class="pub-content">
+                            <div class="pub-number-large">01 / 04</div>
+                            <h3 class="pub-title-large">Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding</h3>
+                            <div class="pub-authors-large">Xiang, Y., Wei, L., Yao, Y., Zhu, Q., Yan, H., Jin, C., Teare, P. A., Zhang, D., Gui, L., Saseendran, A., and He, Y.</div>
+                            <span class="pub-venue-large">ICML 2026</span>
+                            <p class="pub-summary">
+                                We propose COVER (Cache Override Verification for Efficient Revision), a training-free method that eliminates flip-flop oscillations in revocable diffusion language model decoding. By performing leave-one-out verification and stable drafting within a single forward pass via KV cache override, COVER preserves contextual information while accelerating inference — achieving faster, higher-quality generation without sacrificing quality.
+                            </p>
+                        </div>
+                    </div>
                     <div class="pub-slide">
                         <div class="pub-image">
                             <img src="pub1.png" alt="Publication 1 Image">
                         </div>
                         <div class="pub-content">
-                            <div class="pub-number-large">01 / 03</div>
+                            <div class="pub-number-large">02 / 04</div>
                             <h3 class="pub-title-large">Segment Anyword: Mask Prompt Inversion for Open-Set Grounded
                                 Segmentation</h3>
                             <div class="pub-authors-large">Z. Liu, A. Saseendran, L. Tong, X. He, F. Yousefi, N.
@@ -618,7 +632,7 @@
                             <img src="pub3.png" alt="Publication 2 Image">
                         </div>
                         <div class="pub-content">
-                            <div class="pub-number-large">02 / 03</div>
+                            <div class="pub-number-large">03 / 04</div>
                             <h3 class="pub-title-large">Decore: Decoding by Contrasting Retrieval Heads to Mitigate
                                 Hallucinations</h3>
                             <div class="pub-authors-large">Gema, A. P., et al., & Saseendran, A.</div>
@@ -636,7 +650,7 @@
                             <img src="pub2.png" alt="Publication 3 Image">
                         </div>
                         <div class="pub-content">
-                            <div class="pub-number-large">03 / 03</div>
+                            <div class="pub-number-large">04 / 04</div>
                             <h3 class="pub-title-large">Balancing Act: Diversity and Consistency in Large Language Model
                                 Ensembles</h3>
                             <div class="pub-authors-large">Abdulaal, A., et al., & Saseendran, A.</div>
@@ -665,6 +679,17 @@
         </div>
 
         <div class="news-container">
+            <div class="news-item">
+            <div class="news-date">
+                <span class="month">JUL</span>
+                <span class="year">2026</span>
+            </div>
+            <div class="news-content">
+                <div class="news-badge new">NEW</div>
+                <h3 class="news-title">Paper Accepted at ICML 2026</h3>
+                <p class="news-description">"Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding" accepted at ICML 2026. This work with King's College London introduces COVER, a training-free method that eliminates oscillatory token revisions in diffusion language model decoding.</p>
+            </div>
+        </div>
             <div class="news-item">
                 <div class="news-date">
                     <span class="month">OCT</span>
@@ -779,7 +804,7 @@
 
     <script>
         let currentSlide = 0;
-        const totalSlides = 3;
+        const totalSlides = 4;
         const carousel = document.getElementById('carousel');
         const wrapper = carousel.closest('.carousel-wrapper');
         const prevBtn = document.getElementById('prevBtn');
